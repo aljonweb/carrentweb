@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif !important;
+}
+
+#logo{
+  width: 100px; 
+}
+#hero-section{
+    height: 75vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    background-color: rgba(255, 255, 255, 0.315);
+    
+}
+
+.lucide-facebook-icon{
+
+    width: 80px;
+}
+
+#Ab-content{
+
+    top: 65%;
+    
+
+}
+
+#section-car{
+
+    height: 115vh;
+}
+.col a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.562);
+}
+#footer{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+    background-color: rgba(255, 255, 255, 0.315);
+}
+.bg{
+    background-color: rgb(212, 28, 28) ;
+    padding: 30px;
+}
+.h1-text{
+    color: white;
+}
+
+.trusted{
+
+    position: relative;
+}
+
+.trusted::after{
+
+    content: '---------------------------------';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 80%;
+    right: 0;
+   
+
+}
+.label::after{
+    content: '*';
+    color: red;
+}
+@media screen and (max-width: 700px){
+
+
+    #hero-section{
+
+        height: 85vh;
+    }
+    #section-car{
+        
+        height: 380vh;
+    }
+    #all{
+        text-align: center;
+    }
+    #contact-section{
+        height: 160vh;
+    }
+    #Ab-content{
+        top: 80%;
+    }
+    
+}
