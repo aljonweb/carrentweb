@@ -89,12 +89,12 @@ body{
     }
     
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 370px){
 
 
     #hero-section{
 
-        height: 75vh;
+        height: 65vh;
     }
     #section-car{
         
