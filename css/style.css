@@ -72,11 +72,11 @@ body{
 
     #hero-section{
 
-        height: 85vh;
+        height: 78vh;
     }
     #section-car{
         
-        height: 380vh;
+        height: 420vh;
     }
     #all{
         text-align: center;
@@ -87,31 +87,5 @@ body{
     #Ab-content{
         top: 80%;
     }
-    
-}
-@media screen and (max-width: 370px){
-
-
-    #hero-section{
-
-        height: 65vh;
-    }
-    #section-car{
-        
-        height: 310vh;
-    }
-    #all{
-        text-align: center;
-    }
-    #contact-section{
-        height: 160vh;
-    }
-    #Ab-content{
-        top: 80%;
-    }
-.pha{
-    display: flex;
-    flex-wrap: wrap;
-}
     
 }
