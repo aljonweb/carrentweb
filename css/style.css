@@ -67,7 +67,7 @@ body{
     content: '*';
     color: red;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 650px){
 
 
     #hero-section{
@@ -87,5 +87,31 @@ body{
     #Ab-content{
         top: 80%;
     }
+    
+}
+@media screen and (max-width: 400px){
+
+
+    #hero-section{
+
+        height: 75vh;
+    }
+    #section-car{
+        
+        height: 310vh;
+    }
+    #all{
+        text-align: center;
+    }
+    #contact-section{
+        height: 160vh;
+    }
+    #Ab-content{
+        top: 80%;
+    }
+.pha{
+    display: flex;
+    flex-wrap: wrap;
+}
     
 }
